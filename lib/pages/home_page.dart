@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_basics/widgets/drawer.dart';
 
@@ -7,7 +9,15 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Sample App"),
+        //backgroundColor: Colors.white,
+        //elevation: 0,
+        //iconTheme: IconThemeData(color: Colors.black),
+        title: Text(
+          "Sample App",
+          /*style: TextStyle(
+            color: Colors.black,
+          ),*/
+        ),
       ),
       body: Center(
         child: Container(
